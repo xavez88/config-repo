@@ -1,0 +1,9 @@
+zuul:
+  ignoredServices: '*'
+  routes:
+    microservice-a:
+      path: /micro-a/**
+      serviceId: microservice-a
+    microservice-b:
+      path: /micro-b/**
+      serviceId: microservice-b
